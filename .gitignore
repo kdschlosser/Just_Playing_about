@@ -1,0 +1,28 @@
+# Build output
+/*.chm
+/*.dll
+/*.exe
+/_build/data/docs/pluginlist.rst
+/_build/data/docs/eg/*
+!/_build/data/docs/eg/index.rst
+/_build/data/Python??/[Ii]mports.py
+/_build/output/
+/eg/StaticImports.py
+/lib??/*
+!/lib??/site-packages/
+
+# IDE storage
+/.*/
+
+# Python
+__pycache__/
+*.py[co]
+*$py.class
+
+# Visual Studio
+.vs/
+Debug/
+Release/
+*.opendb
+*.sdf
+*.VC.db
